@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="arsu.rufood"
+      android:versionCode="1"
+      android:versionName="1.0">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+    <application android:label="@string/app_name" android:icon="@drawable/icon">
+        <activity android:name=".RUFood"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="ChooseHall"
+        		  android:label="@string/app_name">
+        </activity>
+        
+        <activity android:name="ListFood"
+        		  android:label="@string/app_name">
+        </activity>
+        
+		<activity android:name="Settings"
+				  android:label="@string/app_name">
+		</activity>
+        
+		<activity android:name="Favorites"
+				  android:label="@string/app_name">
+		</activity>
+		
+		<activity android:name="TabBreakfast"
+				  android:label="@string/app_name">
+		</activity>
+		
+		<activity android:name="TabLunch"
+				  android:label="@string/app_name">
+		</activity>
+		<activity android:name="TabDinner"
+				  android:label="@string/app_name">
+		</activity>
+		<activity android:name="TabTakeout"
+				  android:label="@string/app_name">
+		</activity>
+    </application>
+</manifest>

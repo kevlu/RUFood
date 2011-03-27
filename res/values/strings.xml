@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, RUFood!</string>
+    <string name="app_name">RUFood</string>
+    <string name="Settings">Settings</string>
+    <string name="Favorites">Favorites</string>
+    <string name="WhatsCookin">Menus</string>
+    <string name="act_choosehall">ChooseHall</string>
+    <string name="nothingtosee">Nothing to see here, move along...</string>
+</resources>
